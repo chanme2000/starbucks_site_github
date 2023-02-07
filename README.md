@@ -93,7 +93,7 @@ $ git remote -v
 ```
 <br />
 
-# 프롤젝트 내에 다른 branch 생성
+# 프로젝트 내에 다른 branch 생성
 ## 현재 브랜치 확인
 ```bash
 $ git branch
