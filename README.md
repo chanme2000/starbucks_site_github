@@ -18,13 +18,6 @@ $ git config --global core.autocrlf true
 [mac]
 $ git config --global core.autocrlf input
 ```
-## 개행문자(New Line) 설정
-```bash
-[window]
-$ git config --global core.autocrlf true
-[mac]
-$ git config --global core.autocrlf input
-```
 ## 사용자 정보
 ### 커밋(버전생성)을 위한 정보등록
 ```bash
