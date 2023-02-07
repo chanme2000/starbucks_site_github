@@ -1,3 +1,6 @@
+<<<<<<< Updated upstream
+# Starbucks
+=======
 # Github 기본 셋팅 및 환경 설정
 ## git 설치
 ```plaintext
@@ -93,7 +96,7 @@ $ git remote -v
 ```
 <br />
 
-# 프로젝트 내에 다른 branch 생성
+# 프롤젝트 내에 다른 branch 생성
 ## 현재 브랜치 확인
 ```bash
 $ git branch
@@ -161,3 +164,12 @@ $ git pull
 ```
 - 브랜치 merge하면서 commit 메시지도 자동으로 만들어 짐.
 - 성공하면 다시 push하면 정상적으로 실행됨.
+
+```bash
+# 현재 Staging 영역에 있는 파일의 변경사항을 스택에 저장
+$ git stash
+# 아래 명령어와 같이 원격 저장소의 master에서 pull을 하거나, git checkout master와 같이 브랜치를 바꿀 있음
+$ git pull origin master
+# stash 명령어로 스택에 넣어둔 변경 사항을 적용하고, 스택에서 제거하여준다.
+$ git stash pop
+```
