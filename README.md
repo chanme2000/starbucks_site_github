@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-# Starbucks
-=======
 # Github 기본 셋팅 및 환경 설정
 ## git 설치
 ```plaintext
